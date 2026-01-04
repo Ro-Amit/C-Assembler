@@ -1,4 +1,4 @@
-# 🚀 Assembly Language Assembler in C 🚀
+# 🚀 Assembly Language Assembler in C
 
 A comprehensive assembler program for a specific assembly language, written in C. This project simulates the operation of common system programs and demonstrates a complete large-scale software development process.
 
