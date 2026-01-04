@@ -9,7 +9,6 @@ A comprehensive assembler program for a specific assembly language, written in C
 - [Usage](#-usage)
 - [Testing](#-testing)
 - [Documentation](#-documentation)
-- [Contribution](#-contribution)
 
 ---
 
@@ -35,7 +34,7 @@ Generates the final machine code by replacing operation names with their binary 
 
 ---
 
-🔧 Usage
+## 🔧 Usage
 
 Run the assembler using:
 ```
@@ -45,13 +44,13 @@ Outputs the machine code corresponding to the provided assembly files.
 
 ---
 
-🧪 Testing
+## 🧪 Testing
 	•	Multiple input files demonstrate the assembler’s handling of operations, data types, and errors.
 	•	Test files are included in the Tests and Input_and_output_ex folders.
 
 ---
 
-📚 Documentation
+## 📚 Documentation
 	•	Each function is documented with header comments explaining its purpose and usage.
 	•	Important variables are explained.
 	•	Detailed comments throughout the code make it easier to understand.
