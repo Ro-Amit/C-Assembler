@@ -1,0 +1,27 @@
+.extern EXTLABEL
+.extern EXTERNALVAR
+.entry FUNC
+.entry LOOP
+START:  mov r2, r3
+add r1, r2
+cmp r3, #10
+bne LOOP
+jsr FUNC
+prn r4
+stop
+FUNC:   not r1
+clr r3
+dec r2
+jmp EXTLABEL
+rts
+jmp EXTLABEL
+STR1:   .string "valid123"
+DATA1:  .data -5, 0, 8, 12
+LOOP:   cmp #1, r1
+bne START
+add r4, r4
+prn #0
+jmp FUNC
+CONTINUE: prn r3
+cmp r2, EXTERNALVAR
+stop

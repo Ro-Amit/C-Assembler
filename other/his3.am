@@ -1,0 +1,27 @@
+; Test 3 - Multiple references to externs
+
+.extern LINKED
+.extern GLOBALVAR
+.entry INIT
+.entry FUNCB
+
+INIT:   red r3
+        mov #7, r2
+        add r2, LINKED
+        bne FUNCB
+        stop
+
+FUNCB: prn r2
+        dec r3
+        not r1
+        jmp &LOOPB
+        rts
+
+LOOPB: cmp #0, r3
+        bne INIT
+        jsr FUNCB
+        prn GLOBALVAR
+        stop
+
+DATAB: .data 1, 2, 3, 4
+STRB:  .string "MacroCallTest"

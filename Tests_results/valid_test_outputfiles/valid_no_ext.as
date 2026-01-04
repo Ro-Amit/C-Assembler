@@ -1,0 +1,5 @@
+
+.extern UNUSEDEXTERN
+.entry MAIN
+MAIN:    mov r1, r2
+         add r3, r4

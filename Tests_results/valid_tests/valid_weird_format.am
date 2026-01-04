@@ -1,0 +1,17 @@
+.extern       OUTLABEL
+.entry   MAIN
+MAIN:        mov       r1 ,     r2
+add        r3 ,     r1
+prn     r3
+stop
+LABEL1:       .data    5    ,    -3 ,     10
+STR:   .string     " Hello, World!    "
+FUNC:       cmp     #7  ,   r3
+bne        MAIN
+inc     r1
+dec       r2
+not      r4
+clr   r5
+.entry    FUNC
+jmp        OUTLABEL
+END:     rts
