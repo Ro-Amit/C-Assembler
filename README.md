@@ -45,13 +45,13 @@ Outputs the machine code corresponding to the provided assembly files.
 ---
 
 ## 🧪 Testing
-	•	Multiple input files demonstrate the assembler’s handling of operations, data types, and errors.
-	•	Test files are included in the Tests and Input_and_output_ex folders.
+* Multiple input files demonstrate the assembler’s handling of operations, data types, and errors.
+* Test files are included in the Tests and Input_and_output_ex folders.
 
 ---
 
 ## 📚 Documentation
-	•	Each function is documented with header comments explaining its purpose and usage.
-	•	Important variables are explained.
-	•	Detailed comments throughout the code make it easier to understand.
+* Each function is documented with header comments explaining its purpose and usage.
+* Important variables are explained.
+* Detailed comments throughout the code make it easier to understand.
 
